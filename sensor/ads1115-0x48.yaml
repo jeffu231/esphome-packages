@@ -1,4 +1,4 @@
 ads1115:
   - address: 0x48
     continuous_mode: true
-    id: ads1115-0x48
+    id: ads1115_0x48
