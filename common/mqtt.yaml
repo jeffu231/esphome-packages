@@ -1,0 +1,12 @@
+# MQTT configuration entry
+mqtt:
+  broker: $mqtt_broker_name
+  client_id: $devicename
+  discovery: false
+  topic_prefix: $mqtt_device_root_topic
+  birth_message:
+    topic: $mqtt_device_root_topic/status
+    payload: online
+  will_message:
+    topic: $mqtt_device_root_topic/status
+    payload: offline

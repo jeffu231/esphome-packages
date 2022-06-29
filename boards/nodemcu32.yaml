@@ -1,0 +1,16 @@
+esphome:
+  name: ${devicename}
+
+esp32:
+  board: nodemcu-32s
+
+# Enable logging
+logger:
+  level: ${log_level}
+
+# I2C Bus
+i2c:
+  sda: GPIO21
+  scl: GPIO22
+  scan: true
+  id: bus_a  
