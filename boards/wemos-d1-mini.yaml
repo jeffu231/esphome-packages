@@ -1,0 +1,9 @@
+esphome:
+  name: ${devicename}
+
+esp32:
+  board: wemos_d1_mini32
+
+# Enable logging
+logger:
+  level: ${log_level}
