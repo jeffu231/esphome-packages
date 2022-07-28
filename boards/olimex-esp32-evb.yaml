@@ -7,10 +7,3 @@ esp32:
 # Enable logging
 logger:
   level: ${log_level}
-
-# I2C Bus
-i2c:
-  sda: GPIO13
-  scl: GPIO16
-  scan: true
-  id: bus_a  
