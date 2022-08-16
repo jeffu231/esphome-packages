@@ -1,5 +1,5 @@
 ads1115:
   - address: 0x48
     i2c_id: ${adc_bus}
-    continuous_mode: true
+    continuous_mode: false
     id: ads1115_0x48
