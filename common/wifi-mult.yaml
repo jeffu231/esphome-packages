@@ -1,9 +1,10 @@
 wifi:
+  min_auth_mode: WPA2
   networks:
   - ssid: $wifi_ssid
     password: $wifi_password
-  - ssid: $wifi_ssid_alt
-    password: $wifi_password_alt
+  - ssid: $wifi_alt_ssid
+    password: $wifi_alt_password
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
