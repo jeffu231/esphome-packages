@@ -12,3 +12,4 @@ ota:
     on_end:
       then:
         - logger.log: "OTA end"
+

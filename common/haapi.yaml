@@ -1,3 +1,4 @@
 api:
-  password: $hass_api_key
+  encryption:
+    key: $api_encryption_key
   reboot_timeout: 1h
